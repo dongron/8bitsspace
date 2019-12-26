@@ -3,10 +3,10 @@ let gtm = ''
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Bootstrap Strapi Starter`,
-    description: `Gatsby + Strapi = <3`,
-    author: `Jeremy Lynch`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`
+    title: `8 Bits Space`,
+    description: `Official 8bits.space website. Software build with <3 in Estonia`,
+    author: `Dominik Gronkiewicz`,
+    siteUrl: `https://8bits.space/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

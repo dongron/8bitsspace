@@ -36,19 +36,19 @@ export default () => {
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>Great software for you</p>
           </div>
         </div>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>Great software for you</p>
           </div>
         </div>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>Great software for you</p>
           </div>
         </div>
       </Slider>

@@ -21,29 +21,29 @@ export default () => (
   <footer className="py-5 bg-light">
     <Container>
       <Row>
-        <Col>
-          <h5>Features</h5>
-          <ul>
-            <FooterLink to="/">Item</FooterLink>
-          </ul>
-        </Col>
-        <Col>
-          <h5>Resources</h5>
-          <ul>
-            <FooterLink to="/">Item</FooterLink>
-          </ul>
-        </Col>
-        <Col>
-          <h5>Company</h5>
-          <ul>
-            <FooterLink to="/">Item</FooterLink>
-          </ul>
-        </Col>
-        <Col>
-          <h5>Contact Us</h5>
-          <SocialLink Icon={FaFacebookSquare}/>
-          <SocialLink Icon={FaInstagram}/>
-        </Col>
+        {/*<Col>*/}
+        {/*  <h5>Features</h5>*/}
+        {/*  <ul>*/}
+        {/*    <FooterLink to="/">Item</FooterLink>*/}
+        {/*  </ul>*/}
+        {/*</Col>*/}
+        {/*<Col>*/}
+        {/*  <h5>Resources</h5>*/}
+        {/*  <ul>*/}
+        {/*    <FooterLink to="/">Item</FooterLink>*/}
+        {/*  </ul>*/}
+        {/*</Col>*/}
+        {/*<Col>*/}
+        {/*  <h5>Company</h5>*/}
+        {/*  <ul>*/}
+        {/*    <FooterLink to="/">Item</FooterLink>*/}
+        {/*  </ul>*/}
+        {/*</Col>*/}
+        {/*<Col>*/}
+        {/*  <h5>Contact Us</h5>*/}
+        {/*  <SocialLink Icon={FaFacebookSquare}/>*/}
+        {/*  <SocialLink Icon={FaInstagram}/>*/}
+        {/*</Col>*/}
       </Row>
     </Container>
   </footer>
