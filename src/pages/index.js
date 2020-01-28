@@ -26,7 +26,7 @@ export default () => (
       <h2 className="text-center mb-4">Services</h2>
       <Row>
         <Service title="CMS Frontend" Icon={FaWordpressSimple} />
-        <Service title="Consulting" Icon={FaChalkboardTeacher} />
+        {/*<Service title="Consulting" Icon={FaChalkboardTeacher} />*/}
         <Service title="Mobile Web Apps" Icon={AiOutlineMobile} />
       </Row>
     </Container>
