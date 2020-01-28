@@ -35,20 +35,8 @@ export default () => {
       <Slider {...settings}>
         <div>
           <div className="text-center">
-            <h1>{title}</h1>
-            <p>Great software for you</p>
-          </div>
-        </div>
-        <div>
-          <div className="text-center">
-            <h1>{title}</h1>
-            <p>Great software for you</p>
-          </div>
-        </div>
-        <div>
-          <div className="text-center">
-            <h1>{title}</h1>
-            <p>Great software for you</p>
+            <h1>{title} OÜ</h1>
+            <p>Sepapaja 6, Tallinn 15551, Estonia</p>
           </div>
         </div>
       </Slider>

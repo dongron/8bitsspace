@@ -26,13 +26,13 @@ export default () => (
       <h2 className="text-center mb-4">Services</h2>
       <Row>
         <Service title="CMS Frontend" Icon={FaWordpressSimple} />
-        <Service title="Mobile Web Apps" Icon={AiOutlineMobile} />
         <Service title="Consulting" Icon={FaChalkboardTeacher} />
+        <Service title="Mobile Web Apps" Icon={AiOutlineMobile} />
       </Row>
     </Container>
     <div className="text-center py-5">
       <Link
-        to="https://www.linkedin.com/in/dominik-gronkiewicz-b696b950/"
+        to="https://www.linkedin.com/company/8-bits-space/"
         className="btn btn-primary btn-lg"
       >
         <FaLinkedin className="mr-1" />
