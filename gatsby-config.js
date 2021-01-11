@@ -1,12 +1,15 @@
-let facebook_pixel = ''
-let gtm = ''
+let facebook_pixel = ""
+let gtm = ""
 
 module.exports = {
   siteMetadata: {
     title: `8 Bits Space`,
     description: `Official 8bits.space website. Software build with <3 in Estonia`,
     author: `Dominik Gronkiewicz`,
-    siteUrl: `https://8bits.space/`
+    siteUrl: `https://8bits.space/`,
+    companyName: `8 Bits Space OÜ`,
+    address: `Sepapaja 6, Tallinn 15551, Estonia`,
+    contactEmail: `contact@8bits.space`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,13 +32,13 @@ module.exports = {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: facebook_pixel,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/assets/images/gatsby-icon.png'
-      }
+        logo: "./src/assets/images/gatsby-icon.png",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -56,8 +59,8 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-robots-txt",
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
   ],
 }
