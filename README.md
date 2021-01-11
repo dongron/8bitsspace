@@ -8,6 +8,8 @@
   Gatsby's Strapi Starter
 </h1>
 
+## Warning! Works with npm v10
+
 A (slightly) opinionated Gatsby Strapi boilerplate to get started fast. Stack includes:
 * [Strapi](https://strapi.io/)
 * [Bootstrap](https://getbootstrap.com/)

@@ -18,13 +18,13 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        id: gtm,
-        includeInDevelopment: false
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-google-tagmanager',
+    //   options: {
+    //     id: gtm,
+    //     includeInDevelopment: false
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {

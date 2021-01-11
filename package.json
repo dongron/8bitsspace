@@ -46,6 +46,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "local-develop": "./node_modules/gatsby/cli.js develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
