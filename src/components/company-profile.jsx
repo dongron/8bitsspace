@@ -46,11 +46,11 @@ export const CompanyProfile = props => {
         </Col>
       </Row>
 
-      {address.split(",").map(addressRow => (
-        <Row>
+      {address.split(",").map((addressRow, index) => (
+        <Row key={index}>
           <Col>
             <CompanyAddress className="text-center">
-              {addressRow}
+              {addressRow.trim()}
             </CompanyAddress>
           </Col>
         </Row>
